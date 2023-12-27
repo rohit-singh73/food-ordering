@@ -1,6 +1,20 @@
 body{
-    background-color: yellow;
+    background-color: rgb(214, 250, 10);
 }
 h1{
     color: grey;
+    text-align: center;
+    
+    
+}
+.main button{
+    cursor: pointer;
+    background-color: rgba(17, 237, 10, 0.562);
+    padding: 10px;
+    margin-left: 30%;
+    border-radius: 20px;
+}
+.main button:hover{
+    background-color: chocolate;
+    
 }

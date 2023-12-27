@@ -15,7 +15,7 @@ body{
     color: rgb(229, 8, 8);
 }
 .nav .logo h1{
-    font-weight: 600;
+    font-weight: 800;
     font-family: sans-serif;
     color: orangered;
 }
@@ -29,11 +29,17 @@ body{
 .nav ul li{
     margin-right: 30px;
 }
+
+.nav ul li a:hover{
+    color: red;
+   
+}
 .nav ul li a{
     text-decoration: none;
     font-weight: 500;
     font-family: sans-serif;
     font-size: 18px;
+    color: blue;
 }
 
 .nav ul .active::before{
@@ -69,7 +75,7 @@ font-weight: 600;
   
 }
 .signup{
-    
+    margin-right: none;
     padding: 15px;
     cursor: pointer;
     font-weight: 600;
@@ -89,7 +95,7 @@ font-weight: 600;
 
 }
  .content .content-right img{
-    width: 500px;
+    
     height: 400px;
     position: relative;
     animation: rotate 10s linear infinite;
@@ -143,3 +149,8 @@ background-color: rgb(12, 238, 35);
     color: rgb(239, 8, 8);
     
     }
+
+.footer{
+    color: blue;
+    text-align: center;
+}

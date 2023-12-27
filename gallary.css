@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(11, 213, 228);
+}
+.food-items{
+    display: -ms-grid;
+    position:none;
+    
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px  blue;
+    transition: .2s ease-in-out;
+    background-color: blue;
+ }
