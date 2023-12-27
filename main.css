@@ -65,10 +65,11 @@ font-weight: 600;
     border-radius: 15px;
 }
 .content-left button{
-    background-color: chocolate;
+    background-color: rgb(243, 22, 10);
     cursor: pointer;
     border-radius: 5px;
-    width: 160px;
+    width: 600px;
+    height: auto;
     font-weight: 600;
     padding: 15px;
 
@@ -88,15 +89,43 @@ font-weight: 600;
     }
 }
 
+
 .food-items{
-    display: flex;
-    width: 565px;
-    height: 565px;
-}
+    background-color: rgba(36, 230, 19, 0.918);
+    width: 600px;
+    height: auto;
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px  rgb(8, 8, 236);
+    transition: .2s ease-in-out;
+ }
 .food-items>button {
-    background-color: rgb(128, 80, 80);
+    background-color: rgb(235, 19, 19);
 }
 .food-items>button :hover{
     background-color: rgb(250, 13, 13);
 }
 
+.details > button{
+background-color: rgb(255, 0, 0);
+cursor: pointer;
+width: 150px;
+height: 50px;
+font-weight: 800;
+
+}
+
+.details > button:hover{
+background-color: rgb(12, 238, 35);
+
+}
+.content-left button:hover{
+    background-color: rgb(8, 242, 43);
+}
+.details > p{
+    background-color: rgb(15, 197, 221);
+    color: rgb(239, 8, 8);
+    
+    }
