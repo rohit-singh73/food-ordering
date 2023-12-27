@@ -8,8 +8,12 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
+    
 }
-
+.nav:hover{
+   
+    color: rgb(229, 8, 8);
+}
 .nav .logo h1{
     font-weight: 600;
     font-family: sans-serif;
@@ -51,8 +55,18 @@ font-weight: 600;
     padding: 15px;
     cursor: pointer;
     font-weight: 800;
-    background: transparent;
     border: none;
+    border-radius: 15px;
+    background-color: rgba(41, 9, 72, 0.308);
+
+}
+.signin:hover{
+    background-color: red;
+  
+}
+.signup:hover{
+    background-color: red;
+  
 }
 .signup{
     
