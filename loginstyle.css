@@ -1,0 +1,40 @@
+body{
+    background-color: skyblue;
+
+}
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px ;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin: 8px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+  cursor: pointer;
+  border: none;
+    width: 100%;
+  }
+  
+.centerForm
+{
+    justify-content: center;
+    margin: 30px 550px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+ .h {
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 10px;
+}
+  
+
+
+  
